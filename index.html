@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javohir Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Javohir Developer</h1>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <section id="home" class="home_page">
+        <div class="home_text">
+           <h1 class="home_h1">Hi, I'm Javohir</h1>
+           <h4 class="home_h4">Frontend Developer</h4>
+           <p class="home_p">
+                I'm passionate about crafting modern, responsive, and user-friendly web interfaces.  
+                With a focus on clean code and elegant design, I aim to turn ideas into digital experiences that inspire and engage.
+           </p>
+        </div>
+        <div class="btn_contact">
+            <a href="#contact">Hire Me</a>
+        </div>
+    </section>
+    <section id="about" class="about_me">
+        <h1 class="about_h1">About Me</h1>
+        <div class="about_cntainer">
+            <div class="skills">
+                <h3>My Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>C#</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="about_text">
+                <h3>Information About me</h3>
+                <p>
+                   I am a passionate frontend developer with a strong foundation in web technologies.  
+                   I love building interactive, elegant, and responsive web interfaces.  
+                   My focus is on creating clean, efficient, and scalable code that brings ideas to life.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="my_projects">
+        <h1>My Projects</h1>
+        <div class="projects_box">
+            <div class="weather_app">
+                <h3>Weather App</h3>
+                <img src="./projects img/weather app.png" alt="Weather Application Preview">
+                <label>Weather App: <a href="https://imag1nej.github.io/Weathet-App/" target="_blank">View Project</a></label>
+            </div>
+            <div class="text_reverse">
+                <h3>Text Reverse</h3>
+                <img src="./projects img/text reverse app.png" alt="Text Reverse Application Preview">
+                <label>Text Reverse Program: <a href="https://imag1nej.github.io/Text-Reverse/" target="_blank">View Project</a></label>
+            </div>
+            <div class="stopwatch">
+                <h3>Stopwatch</h3>
+                <img src="./projects img/stopwatch.png" alt="Stopwatch Application Preview">
+                <label>Stopwatch App: <a href="https://imag1nej.github.io/Stopwatch/" target="_blank">View Project</a></label>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <div class="contact_container">
+            <div class="contact_info">
+                <h3>Get In Touch</h3>
+                <div class="contact_details">
+                    <div class="contact_item">
+                        <div class="contact_icon">📧</div>
+                        <div class="contact_text">
+                            <h4>Email</h4>
+                            <a href="shermamatovjavohir09@gmail.com">shermamatovjavohir09@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact_item">
+                        <div class="contact_icon">📱</div>
+                        <div class="contact_text">
+                            <h4>Phone</h4>
+                            <a href="tel:+998944470886">+998 (94) 447 08 86</a>
+                        </div>
+                    </div>
+                    <div class="contact_item">
+                        <div class="contact_icon">📍</div>
+                        <div class="contact_text">
+                            <h4>Location</h4>
+                            <p>Tashkent, Uzbekistan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social_links">
+                    <a href="https://www.instagram.com/javohir_imag1ne?igsh=Z2YxZzRsaTR1ODZ1" class="social_link"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/Imag1neJ" class="social_link"><i class='bx bxl-github'></i></a>
+                    <a href="https://t.me/codingjavascript9" class="social_link"><i class='bx bxl-telegram'></i></a>
+                </div>
+            </div>
+            
+            <div class="contact_form">
+                <h3>Send Message</h3>
+                <form>
+                    <div class="form_group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form_group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+                    </div>
+                    <button onclick="sendMessage()" class="submit_btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
