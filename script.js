@@ -33,3 +33,12 @@ function sendMessage(){
             }
         })
 }
+  function copyMessage(event) {
+    event.preventDefault();
+    const text = "shermamatovjavohir09@gmail.com";
+    navigator.clipboard.writeText(text).then(() => {
+      const notice = document.getElementById("copyNotice");
+      notice.style.display = "inline";
+      setTimeout(() => notice.style.display = "none", 1500);
+    });
+  }
