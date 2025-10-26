@@ -41,6 +41,11 @@ header {
     transition: all 0.3s ease;
 }
 
+.logo a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .logo:hover {
     color: #b366ff;
     text-shadow: 0 0 15px #b366ff;
@@ -126,7 +131,7 @@ header {
     font-weight: 600;
     padding: 25px 120px;
     border-radius: 30px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     opacity: 0;
     animation: fadeInUp 1.5s ease forwards;
     animation-delay: 1.2s;
@@ -134,7 +139,9 @@ header {
 
 .btn_contact a:hover {
     transform: translateY(-3px);
-    box-shadow: 0 0 20px rgba(102, 126, 234, 0.8);
+    background: transparent;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 25px rgba(102, 126, 234, 0.8);
 }
 
 .about_me {
